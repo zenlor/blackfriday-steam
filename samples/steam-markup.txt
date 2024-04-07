@@ -1,0 +1,97 @@
+[h1]h1 Heading[/h1]
+[h2]h2 Heading[/h2]
+[h3]h3 Heading[/h3]
+[h3]h4 Heading[/h3]
+[h3]h5 Heading[/h3]
+[h3]h6 Heading[/h3]
+[h2]Horizontal Rules[/h2]
+
+[hr][/hr]
+
+[hr][/hr]
+
+[hr][/hr]
+[h2]Text Formatting[/h2]
+[b]This is bold text[/b]
+
+[b]This is bold text[/b]
+
+[i]This is italic text[/i]
+
+[i]This is italic text[/i]
+
+[strike]Strikethrough[/strike]
+
+[h2]Quote[/h2]
+[quote]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies blandit
+neque vel rhoncus. Interdum et malesuada fames ac ante ipsum primis in
+faucibus. Fusce vestibulum augue id bibendum elementum. Nulla facilisi. Orci
+varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+mus.
+
+[/quote]
+[h2]Lists[/h2]
+Unordered
+
+[list]
+[*]List of unordered items
+[*]sub-lists might work as-well
+[list]
+[*]nested first level
+[*]second level
+[*]Ac tristique libero volutpat at
+[*]Facilisis in pretium nisl aliquet
+[*]Nulla volutpat aliquam velit
+[/list]
+[*]end
+[/list]
+Ordered
+
+[olist]
+[*]Lorem ipsum dolor sit amet
+[*]Consectetur adipiscing elit
+[*]Integer molestie lorem at massa
+[/olist]
+[h2]Code[/h2]
+Inline [code]code[/code] blocks
+
+Four spaces indented code block
+
+[code]#include <stdio.h>
+int main() {
+    printf("Hello, World!");
+    return 0;
+}
+[/code]
+Fenced code blocks
+
+[code]#include <stdio.h>
+int main() {
+    printf("Hello, World!");
+    return 0;
+}
+[/code]
+[h2]Tables[/h2]
+[table]
+[tr]
+[th]Lorem[/th][th]Ipsum[/th][/tr]
+[tr]
+[td]dolor[/td][td]Mauris sollicitudin odio est, sed vulputate dolor blandit ut.[/td][/tr]
+[tr]
+[td]sit[/td][td]Duis eu molestie diam, sagittis lobortis est.[/td][/tr]
+[tr]
+[td]amet[/td][td]Integer nisl nunc, condimentum quis tristique sed, luctus sodales sapien.[/td][/tr]
+[/table]
+[h2]Links[/h2]
+[url=http://example.com]link text[/url]
+
+Links with a reference
+
+[url=https://example.com]referenced link[/url]
+
+[h2]Images[/h2]
+[img]https://octodex.github.com/images/minion.png[/img]
+
+[img]https://octodex.github.com/images/dojocat.jpg[/img]caption
+
